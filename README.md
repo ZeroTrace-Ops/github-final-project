@@ -1,13 +1,19 @@
-# -Coursera-IBM-Getting-Started-With-Git-and-Github
+# github-final-project
 
+## Description
+This project is a simple interest calculator implemented using a Bash script.  
+It calculates the interest based on principal amount, rate of interest, and time.
 
-# Simple Interest Calculator
+## Features
+- Calculates simple interest
+- Easy to use Bash script
+- Takes user input from terminal
 
-```python
-p = float(input("Principal: "))
-r = float(input("Rate: "))
-t = float(input("Time: "))
+## Formula Used
+Simple Interest = (Principal × Rate × Time) / 100
 
-si = (p * r * t) / 100
+## How to Run
 
-print("Simple Interest =", si)
+1. Make the script executable:
+```bash
+chmod +x simple_interest.sh
